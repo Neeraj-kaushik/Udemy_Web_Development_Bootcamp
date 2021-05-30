@@ -1,0 +1,47 @@
+body {
+    background-image: url("me.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 20px;
+    letter-spacing: 2px;
+    background-color: lightgreen;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline orange;
+    text-shadow: 2000px;
+    color: red;
+}
+
+h2 {
+    font-size: xx-large;
+    color: brown;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 500;
+    color: darkmagenta;
+}
+
+p {
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    background-color: aqua;
+    color: crimson;
+}
+
+form {
+    text-align: center;
+    color: red;
+}
+
+button {
+    color: rebeccapurple;
+    background-color: aquamarine;
+}
