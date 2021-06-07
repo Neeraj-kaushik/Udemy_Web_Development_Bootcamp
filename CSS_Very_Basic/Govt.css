@@ -4,14 +4,14 @@ body {
     background-repeat: no-repeat;
     line-height: 20px;
     letter-spacing: 2px;
-    background-color: lightgreen;
     font-weight: 700;
+    background-color: lightgreen;
 }
 
 h1 {
     text-align: center;
     text-decoration: underline orange;
-    text-shadow: 2000px;
+    text-shadow: 200px;
     color: red;
 }
 
