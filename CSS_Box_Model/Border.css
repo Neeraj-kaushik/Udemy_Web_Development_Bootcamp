@@ -1,0 +1,23 @@
+h1 {
+    border: 2px inset red;
+    border-bottom: 0px;
+    border-top-color: coral;
+}
+
+#abc {
+    border: 3px solid blue;
+    border-top: 0px;
+    border-bottom-width: 5px;
+}
+
+#bcd {
+    border: 4px dotted navy;
+    border-left: 0px;
+    border-right-style: dashed;
+}
+
+#cde {
+    border: 5px dotted aquamarine;
+    border-right: 0px;
+    border-left-color: cornflowerblue;
+}
