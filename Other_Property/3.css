@@ -1,0 +1,25 @@
+#abc {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border: 4px solid yellow;
+    transition: 1s;
+}
+
+#abc:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+#bcd {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(87, 15, 29);
+    border: 4px solid rgb(51, 12, 194);
+    transition: 3s;
+}
+
+#bcd:hover {
+    background-color: rgb(231, 19, 214);
+    border-radius: 50%;
+}
