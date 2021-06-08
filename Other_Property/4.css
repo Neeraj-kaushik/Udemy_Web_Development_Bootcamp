@@ -1,4 +1,4 @@
-div {
+#abc {
     width: 600px;
     height: 20px;
     background-color: yellow;
@@ -6,6 +6,20 @@ div {
     transition: all 1s;
 }
 
-div:hover {
+#abc:hover {
     transform: rotate(30deg);
+}
+
+#bcd {
+    width: 800px;
+    height: 800px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg");
+    background-size: cover;
+    box-shadow: 12px 12px 2px 1px rgba(241, 7, 54, 0.9);
+    margin: auto;
+    opacity: 0.8;
+}
+
+h3 {
+    color: cyan;
 }
