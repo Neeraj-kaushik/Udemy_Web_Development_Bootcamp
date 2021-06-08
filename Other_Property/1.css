@@ -1,0 +1,50 @@
+section {
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    border: 4px solid orange;
+}
+
+#abc {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(38, 204, 38, 0.5);
+    border: 2px dotted yellow;
+}
+
+#bcd {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(38, 204, 38, 0.9);
+    border: 2px dotted yellow;
+}
+
+#cde {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(201, 235, 11);
+    border: 2px dotted yellow;
+}
+
+#def {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(38, 204, 38);
+    border: 2px dotted yellow;
+}
+
+.abc {
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    border: 4px solid orange;
+    opacity: 0.7;
+}
+
+.bcd {
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    border: 4px solid orange;
+    opacity: 0.3;
+}
