@@ -3,6 +3,9 @@
     height: 600px;
     background-color: chartreuse;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #bcd {
@@ -10,7 +13,11 @@
     height: 600px;
     background-color: chartreuse;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #cde {
@@ -19,16 +26,8 @@
     background-color: chartreuse;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-#def {
-    width: 1000px;
-    height: 500px;
-    background-color: chartreuse;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
@@ -40,6 +39,7 @@
 #bcd div {
     width: 200px;
     height: 200px;
+    font-size: larger;
 }
 
 #cde div {
@@ -47,7 +47,6 @@
     height: 200px;
 }
 
-#def div {
-    width: 200px;
-    height: 200px;
+#cde div:nth-of-type(2) {
+    align-self: center;
 }
