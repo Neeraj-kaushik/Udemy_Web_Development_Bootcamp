@@ -1,0 +1,23 @@
+#abc {
+    width: 1500px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#abc div {
+    width: 200px;
+    height: 200px;
+    flex-basis: 200px;
+}
+
+div:nth-of-type(2) {
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+div:nth-of-type(4) {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
