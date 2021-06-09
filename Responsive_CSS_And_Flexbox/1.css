@@ -1,0 +1,53 @@
+#abc {
+    width: 1000px;
+    height: 600px;
+    background-color: chartreuse;
+    display: flex;
+}
+
+#bcd {
+    width: 1000px;
+    height: 600px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+
+#cde {
+    width: 1000px;
+    height: 600px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#def {
+    width: 1000px;
+    height: 500px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#abc div {
+    width: 200px;
+    height: 200px;
+}
+
+#bcd div {
+    width: 200px;
+    height: 200px;
+}
+
+#cde div {
+    width: 200px;
+    height: 200px;
+}
+
+#def div {
+    width: 200px;
+    height: 200px;
+}
