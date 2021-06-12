@@ -1,0 +1,54 @@
+body {
+    background-color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+.mine h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.mine p {
+    color: #d30c87;
+    font-weight: 100;
+    font-size: 1.12rem;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    background-color: #1df8a4d7;
+}
+
+.mag {
+    margin-top: 100px;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#etc span {
+    color: #EA1C2C;
+}
+
+#etc h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width:1200px) {
+    #etc h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
