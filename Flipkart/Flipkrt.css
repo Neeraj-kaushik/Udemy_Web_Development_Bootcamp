@@ -18,3 +18,11 @@
 #cde {
     margin-right: 0ch;
 }
+
+.nav {
+    min-height: 100px;
+}
+
+.card-body {
+    text-align: center;
+}
