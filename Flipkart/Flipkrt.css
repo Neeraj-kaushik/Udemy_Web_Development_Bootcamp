@@ -19,10 +19,23 @@
     margin-right: 0ch;
 }
 
-.nav {
-    min-height: 100px;
+.card-text {
+    text-align: center;
 }
 
-.card-body {
-    text-align: center;
+.card {
+    border: none;
+}
+
+.row {
+    min-width: 100%;
+}
+
+.col-5 {
+    margin-right: 40px;
+}
+
+.carousel-inner {
+    max-width: 1680px;
+    margin-left: 120px;
 }
