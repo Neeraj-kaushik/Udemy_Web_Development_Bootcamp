@@ -1,0 +1,57 @@
+#img {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.navbar {
+    margin-top: 3%;
+    width: 550px;
+    height: 30px;
+    border-radius: 39px;
+    margin-left: 1200px;
+    filter: drop-shadow(-12.021px 12.021px 9px rgba(0, 0, 0, 0.32));
+    background-color: #ffffff;
+}
+
+.navbar a {
+    width: 110px;
+    text-align: center;
+}
+
+#img1 {
+    margin-left: 37%;
+    margin-top: -10px;
+}
+
+.navbar a:hover {
+    background-color: rgb(177, 34, 34);
+    border-radius: 25px;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    margin-left: 80px;
+    font-weight: 700;
+    position: absolute;
+    top: 190px;
+}
+
+h2 {
+    background-color: rgb(15, 65, 160);
+    color: white;
+    margin-left: 87px;
+    font-size: 40px;
+    width: fit-content;
+    font-weight: 400;
+    position: absolute;
+    top: 280px;
+}
+
+h6 {
+    position: absolute;
+    left: 430px;
+    top: 280px;
+    font-size: 14px;
+}
