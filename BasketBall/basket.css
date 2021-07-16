@@ -4,6 +4,10 @@
     left: 80px;
 }
 
+body {
+    background-color: rgb(231, 228, 228);
+}
+
 .navbar {
     margin-top: 3%;
     width: 550px;
@@ -28,6 +32,7 @@
     background-color: rgb(177, 34, 34);
     border-radius: 25px;
     color: white;
+    transition-delay: 0ms;
 }
 
 h1 {
@@ -54,4 +59,115 @@ h6 {
     left: 430px;
     top: 280px;
     font-size: 14px;
+}
+
+#lorem {
+    position: absolute;
+    top: 420px;
+    left: 87px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#img2 {
+    position: absolute;
+    top: 500px;
+    left: -190px;
+}
+
+#button {
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    height: 50px;
+    width: 160px;
+    color: #ffffff;
+    background-color: rgb(177, 34, 34);
+    border-radius: 18px;
+}
+
+.img5 {
+    position: absolute;
+    top: 680px;
+    left: 80px;
+}
+
+.img4 {
+    position: absolute;
+    top: 680px;
+    left: 150px;
+}
+
+.img3 {
+    position: absolute;
+    top: 680px;
+    left: 240px;
+}
+
+#img3 {
+    position: absolute;
+    top: 210px;
+    left: 1000px;
+}
+
+#img4 {
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+}
+
+#img5 {
+    position: absolute;
+    top: 350px;
+    left: 1270px;
+}
+
+#img6 {
+    position: absolute;
+    top: 325px;
+    left: 1000px;
+}
+
+#img7 {
+    position: absolute;
+    top: 280px;
+    left: 1250px;
+}
+
+#img8 {
+    position: absolute;
+    top: 295px;
+    left: 980px;
+}
+
+#img9 {
+    position: absolute;
+    top: 180px;
+    left: 1160px;
+}
+
+#img10 {
+    position: absolute;
+    top: 530px;
+    left: 1320px;
+}
+
+.img {
+    width: 380px;
+    height: 177px;
+    object-fit: cover;
+    object-position: 10px 10px;
+    position: absolute;
+    top: 760px;
+    left: 450px;
+}
+
+.img2 {
+    object-fit: cover;
+    object-position: -100px -80px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 145px;
+    width: 200px;
 }
