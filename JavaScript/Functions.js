@@ -95,3 +95,50 @@ try {
 } catch {
     console.log("Error!!!"); // if upper statement will not work then it will work
 }
+
+// For Each : In this method our particular function will for every value in the array
+let forme = [1, 2, 3, 4, 5, 6, 7]
+forme.forEach(function(el) {
+    console.log(el * el)
+})
+
+// Working for each on array of objects
+let forme1 = [{
+        movie: 'F9',
+        price: 210
+    },
+    {
+        movie: 'ddlj',
+        price: 50
+    },
+    {
+        movie: 'toofan',
+        price: 150
+    }
+]
+forme1.forEach(function(value) {
+    console.log(`${value.movie}-->${value.price}`)
+})
+
+//Map: It will create another array from the same array by appling some condtion of the array
+let li1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+li1.map(function(val) {
+    if (val % 2 === 0) {
+        console.log(val)
+    }
+})
+
+//Arrow Function: using this we can compact our function into a smaller format
+const square = (x) => {
+    return x * x;
+}
+console.log(square(6))
+
+//SetTimeout: This function is used so that articular output will be print after some seconds given by the user
+setTimeout(() => {
+        console.log("this is function fot timeout in javascript")
+    }, 3000)
+    //SetInterval:I t will print particular text after every interval of given time
+setInterval(() => {
+    console.log("using set interval")
+}, 2000)
