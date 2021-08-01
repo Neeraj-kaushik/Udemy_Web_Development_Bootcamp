@@ -1,39 +1,39 @@
-#div1{
-    width: 700px;
-    height: 700px;
-    margin-left: 750px;
+#div1 {
+  width: 700px;
+  height: 700px;
+  margin-left: 750px;
 }
-#b1{
-    font-weight: 900;
-    display: inline-block;
+#b1 {
+  font-weight: 900;
+  display: inline-block;
 }
-#ScoreTT{
-    border-radius: 25%;
+#ScoreTT {
+  border-radius: 25%;
 }
-#add1{
-    background-color: rgb(101, 228, 101);
-    border: 2px;
-    height: 35px;
-    width: 125px;
-    margin: 0%;
-    border-radius: 4px;
-    color: white;
+#add1 {
+  background-color: rgb(101, 228, 101);
+  height: 35px;
+  width: 125px;
+  margin: 0%;
+  border-radius: 4px;
+  color: white;
 }
-#add2{
-    background-color: rgb(5, 129, 201);
-    border: 2px;
-    height: 35px;
-    width: 125px;
-    margin: 0%;
-    border-radius: 4px;
-    color: white;
+#add2 {
+  background-color: rgb(5, 129, 201);
+  height: 35px;
+  width: 125px;
+  margin: 0%;
+  border-radius: 4px;
+  color: white;
 }
-#reset{
-    background-color: rgb(241, 71, 80);
-    border: 2px;
-    height: 35px;
-    width: 125px;
-    margin: 0%;
-    color: white;
-    border-radius: 4px;
+#reset {
+  background-color: rgb(241, 71, 80);
+  height: 35px;
+  width: 125px;
+  margin: 0%;
+  color: white;
+  border-radius: 4px;
+}
+body {
+  background-color: rgb(126 138 140);
 }
