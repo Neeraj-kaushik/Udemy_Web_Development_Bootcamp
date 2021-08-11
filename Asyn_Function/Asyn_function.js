@@ -8,7 +8,7 @@ const login=async (user,pass) =>{
         throw new Error('Wrong Password')
     }
 } 
-login('Kaushik','Neeraaj')
+login('Kaushik','Neeraj')
     .then(msg => {
         console.log('Logged In')
         console.log(msg)
