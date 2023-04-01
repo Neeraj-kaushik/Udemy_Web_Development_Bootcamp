@@ -1,0 +1,44 @@
+.main{
+    background-color: aquamarine;
+}
+.nav{
+    background-color: beige;
+    text-align: left;
+    color: black;
+}
+.li{
+    display: inline;
+    color: cyan;
+    letter-spacing: 3px;
+    padding: 8px;
+}
+#para{
+    font-weight: 700;
+    background-color: azure;
+    color: blue;
+}
+.div1{
+    background-color: bisque;
+
+}
+div>img{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
+#form2{
+    background-color: chocolate;
+    
+}
+.table1{
+    color: darkblue;
+    background-color: blanchedalmond;
+    border-color: darkred;
+    border-width: 3px;
+    padding: 3px;
+}
+.img1:hover{
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+}
